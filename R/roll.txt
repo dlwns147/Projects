@@ -1,0 +1,22 @@
+roll=function(){
+  
+  die=1:6
+  
+  dice=sample(die, size=1, replace=TRUE)
+  
+  return(sum(dice))
+  
+}
+
+
+
+
+
+avg_roll = function(n){
+  data1=replicate(n,roll())
+  avg_data<-mean(data1)
+  return(avg_data)
+}
+
+result = replicate(3000, avg_roll(50))
+hist(result)
