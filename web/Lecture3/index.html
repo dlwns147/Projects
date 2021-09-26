@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = 'en' dir = 'ltr'>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+
+        </title>
+    </head>
+
+    <body>
+        <h1>Welcome to my page</h1>
+        <h3>Register your name to guest page</h3>
+
+        <form class='' action='guest.html' method='post'>
+
+
+            <input type='hiddden' name='scretInfo' value='Chrome'>
+            <filedset>
+                <legend>Personal information:</legend>
+                First name:<br>
+                <input type='text' name='firstname' value='Mikey'><br>
+                Last name:<br>
+                <input type='text' name='lastname' value='Mouse'><br><br>
+                <input type='submit' value='Submit'>
+            </filedset><br>
+            
+            <filedset>
+                <legend>Academic information:</legend>
+                Major:<br>
+                <input type='text' name='firstname' value='Mikey'><br>
+                College:<br>
+                <input type='text' name='lastname' value='Mouse'><br><br>
+                <input type='submit' value='Submit'>
+            </filedset><br>
+
+            <select name='coffe'>
+                <option value='black'>Black</option>
+                <option value='cream'>With cream</option>
+                <option value='sugar'>with sugar</option>
+                <option value='regular'>with cream & sugar</option>
+            </select><br>
+
+            <table border='2'>
+                <tr>
+                    <td>
+                        First Name: <input type='text' name='first_name' value='RR' placeholder="Please insert text" 
+                        title='Username should ony contain lowerase letter.'><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Last Name: <input type='password' name='last_name' value='111'>
+                    </td>
+                </tr>
+            </table>
+            <button type='submit' name='button'>Send</button><br>
+            <textarea name='message' rows='5' cols='40'></textarea><br>
+            <input type='submit' name='' value='Send'>
+            
+        </form>
+
+
+        <iframe width='500' height='500' src='/Lecture3/media/Alike _ byDanielLara.mp4'
+            frameborder='2000'
+            allow='accelerometer; clipboard-write; encrypted-media; gyroscope;'>
+        </iframe>
+        <br>
+
+        <video  width='500' controls poster='/Lecture3/imgs/Elsa240.jpg'>
+            <source src='/Lecture3/media/Alike _ byDanielLara.mp4' type='video/mp4'>
+            <source src='/Lecture3/media/Alike _ byDanielLara.webm' type='video/webm'>
+            Your browser does not support video tag.
+        </video>
+        <br>
+
+        <a href='img.jpg' target='_blank'> 
+            <img src = 'img.jpg' alt = 'Everland' wi dth = '100' height = '100' border = '20' title='Click here to zoom out'>
+            
+            <img src = 'img.jpg' alt = 'Everland' width = '100' height = '100' border = '20'>
+        </a>
+        <br>
+
+        <picture>
+            <source media='(min-width: 800px)' srcset='/Lecture3/imgs/Elsa480.jpg'>
+            <source media='(min-width: 600px)' srcset='/Lecture3/imgs/Elsa320.jpg'>
+            <img src='/Lecture3/imgs/Elsa240.jpg' alt='Elsa smiling'> 
+        </picture>
+        <br>
+
+        <h1>Yesterday Beatles</h1>
+        <p>Yesterday, all my troubles seemd so far away<br>
+            Now it looks as though the're here to stay<br>
+            Oh, I believe in yesterday</p>
+        <audio autoplay loop muted controls>
+            <source src='/Lecture3/media/Yesterday.mp3' type='audio/mpeg'>
+            Your browser does not support the audio tag.
+        </audio>
+
+    </body>
+</html>

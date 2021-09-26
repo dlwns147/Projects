@@ -1,0 +1,11 @@
+﻿  linkedlist.c
+C:\Users\User\Desktop\linkedlist.c(43,28): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Desktop\linkedlist.c(43,42): warning C4312: '형식 캐스트': 'int'에서 더 큰 'node *'(으)로의 변환입니다.
+C:\Users\User\Desktop\linkedlist.c(53,42): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Desktop\linkedlist.c(56,43): warning C4312: '형식 캐스트': 'int'에서 더 큰 'node *'(으)로의 변환입니다.
+C:\Users\User\Desktop\linkedlist.c(66,43): warning C4312: '형식 캐스트': 'int'에서 더 큰 'node *'(으)로의 변환입니다.
+C:\Users\User\Desktop\linkedlist.c(77,42): warning C4312: '형식 캐스트': 'int'에서 더 큰 'node *'(으)로의 변환입니다.
+C:\Users\User\Desktop\linkedlist.c(102,6): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  list_replacement.c
+linkedlist.obj : error LNK2001: 확인할 수 없는 외부 기호 printf
+C:\Projects\VisualStudio\Test\x64\Release\Test.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

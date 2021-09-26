@@ -1,0 +1,45 @@
+*{
+    color: rgb(20%, 90%, 25);
+    font-weight: bold;
+    background: grey;
+}
+
+h1, h2, span{
+    background: blue;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color:green;
+    background:grey;
+    font-size:2em;
+    text-fransform: lower-case;
+    text-shadow: 2px 2px 2px red
+}
+
+p::first-line{
+    color: green;
+    font-size:1.5em;
+}
+
+p{
+    word-wrap: break-word;
+}
+
+a:hover{
+    color: yellow;
+    font-size: 10px;
+}
+
+a:visitied{
+    color: red;
+    font-size: 20px;
+}
+
+#login{
+    text-align: right;
+    font-size: 10px;
+    color: black;
+    background: red;
+}
